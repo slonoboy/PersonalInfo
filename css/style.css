@@ -1,36 +1,78 @@
-body {
-    background: linear-gradient(to top, #fefcea, #f1da36);
-    padding: 10px;
-    border: 1px solid #333;
-}
 
+body{
+  margin: 0;
+}
 header{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.content{
-  width: 50%;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.box{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
-p1{
-  font-family: sans-serif;
-  font-size: 20px;
+.hello{
+  margin-top: 5%;
+  margin-bottom: 0;
+  font-size: 5em;
+  color: #1a0818;
+  font-family: 'Dancing Script', cursive;
+}
+.name{
+  margin: 0;
+  font-size: 4em;
+  color: #1a0818;
+  font-family: 'Hachi Maru Pop', cursive;
+
+
+}
+.gradient{
+  background: linear-gradient(#1a0818, #2b092a, #5f225d, #a5539d, #eeb6db);
+  height: 15vh;
+  width: 100%;
+  margin: 0;
 }
 
-ol{
-  font-family: sans-serif;
-  font-size: 20px;
+.container-fluid{
+  height: 100vh;
+  margin: 0;
+  padding-left: 0 !important;
+    padding-right: 0 !important;
+
+
 }
+
+.carousel{
+  height: 100%;
+  color: #eeb6db;
+  background-color: #1a0818;
+}
+
+.carousel-inner{
+position: relative;
+   border-top: 3px solid #5f225d;
+}
+
+.inside{
+  position: absolute;
+}
+
+.carousel-control-next{
+  background: linear-gradient(#1a0818, #2b092a, #5f225d, #a5539d, #eeb6db);
+}
+
+.carousel-control-prev{
+  background: linear-gradient(#1a0818, #2b092a, #5f225d, #a5539d, #eeb6db);
+}
+
+.photo{
+  border-radius: 40%;
+  border: 3px solid #5f225d;
+}
+
 a{
-  text-decoration: none;
+  color: #eeb6db !important;
+  text-decoration: none !important;
 }
