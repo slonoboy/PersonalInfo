@@ -7,15 +7,109 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <title>Persanal web page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Potta+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
+  <header style="background-image: url('photo/fon.jpg');">
+    <h1 class = "hello" font-size = "30px">Hello,</h1>
+    <h2 class = "name">My name is Aslanbek</h2>
+  </header>
+
+  <div class = "container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" >
+    <div class="carousel-item active" data-bs-interval="100000" align="center">
+      <h1>Aslanbek Sultanov SE-2017</h1>
+      <img  class = "photo" width = "30%" src = "photo/slon2.png"/>
+    </div>
+    <div class="carousel-item" data-bs-interval="100000">
+      <h1 align="center">Personal Information</h1>
+      <table border=0 align = "center" width= "30%">
+        <tr>
+          <th>
+            Education
+          </th>
+          <th>
+            Year
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="http://school40.kz">School #40 in Taraz </a>
+          </th>
+          <th>
+            2008-2015
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="https://trz.nis.edu.kz">NIS of Physics and Mathematics in Taraz </a>
+          </th>
+          <th>
+            2015-2020
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="https://astanait.edu.kz">Astana It University</a>
+          </th>
+          <th>
+            2020-now
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div class="carousel-item" data-bs-interval="100000">
+      <h1>Third</h1>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+  </div>
+
+  <!--<header>
     <div class="head_title" align="center">
       <h1>Sultanov Aslanbek</h1>
       <img src="photo/pic.jpg" width="240px" height="260px">
     </div>
   </header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Go somewhere</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://astanait.edu.kz">Go to AITU website</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   <div class="box">
     <div class="content" align="center">
       <h3 text-align="left">
@@ -79,7 +173,7 @@
     </table>
     <br> <br>
     <p1><a href="contact.html">Click here to contact me </a></p1>
-  </div>
+  </div>-->
 </body>
 
 </html>
