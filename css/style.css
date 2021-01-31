@@ -24,10 +24,23 @@ header{
   margin: 0;
   font-size: 4em;
   color: #1a0818;
-  font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'Hachi Maru Pop', cursive;}
 
-
+.base{
+  font-family: 'Squada One', cursive;
+  font-size: 4em;
 }
+
+.info{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+.description{
+  font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
 .gradient{
   background: linear-gradient(#1a0818, #2b092a, #5f225d, #a5539d, #eeb6db);
   height: 15vh;
@@ -40,8 +53,6 @@ header{
   margin: 0;
   padding-left: 0 !important;
     padding-right: 0 !important;
-
-
 }
 
 .carousel{
@@ -51,12 +62,7 @@ header{
 }
 
 .carousel-inner{
-position: relative;
    border-top: 3px solid #5f225d;
-}
-
-.inside{
-  position: absolute;
 }
 
 .carousel-control-next{
@@ -74,5 +80,55 @@ position: relative;
 
 a{
   color: #eeb6db !important;
-  text-decoration: none !important;
+  text-decoration:underline !important;
+}
+
+a:hover{
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+table{
+  border: 3px solid #5f225d;
+}
+
+.mx-auto{
+  max-width: 40% !important;
+}
+
+ol{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  list-style-type:circle;
+}
+
+.in{
+  background-color: #eeb6db !important;
+}
+
+form{
+  font-family: 'Roboto', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%;
+  border: 3px solid #5f225d;
+  background-color: #eeb6db;
+  color: #1a0818;
+}
+
+.button{
+  color: #5f225d;
+  background-color: #eeb6db !important;
+}
+
+.button:hover{
+  color: white;
+  background-color: #5f225d !important;
+  transition: 0.3s;
+}
+
+input{
+  border-radius: 9px;
 }
