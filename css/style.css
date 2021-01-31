@@ -116,6 +116,7 @@ form{
   border: 3px solid #5f225d;
   background-color: #eeb6db;
   color: #1a0818;
+  border-radius: 100px;
 }
 
 .button{
